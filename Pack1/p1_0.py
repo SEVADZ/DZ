@@ -1,5 +1,7 @@
 a = []
 n = int(input())
+if (n < 1):
+	break
 for i in range(n):
     a.append(input())
 a1 = []
