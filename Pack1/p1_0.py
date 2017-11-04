@@ -1,7 +1,8 @@
+import sys
 a = []
 n = int(input())
 if (n < 1):
-	break
+	sys.exit(1)
 for i in range(n):
     a.append(input())
 a1 = []
