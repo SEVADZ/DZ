@@ -39,9 +39,10 @@ class reka(list):
         for i in range(b):
             self.life(bear())
     def viv(self):
+        sl = ""
         for i in range(self.length):
-            print(" " + str(self[i]) + ":" + str(i))
-            print("|    |")
+            sl += str(str(self[i])[0] + "-")
+        print(sl)
     def life(self, x):
         if (len(self.none) > 0):
             ls = []
