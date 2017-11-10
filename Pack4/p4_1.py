@@ -8,7 +8,7 @@ class analiz(list):
 		l1 = str(self.cmax[1] // 10000000) + "." + str((self.cmax[1] // 1000) % 100) + "." + str((self.cmax[1] // 100000) % 100) + "." + str(self.cmax[1] % 1000)
 		l2 = str(self.cmax[1] // 10000000) + "." + str((self.cmax[1] // 1000) % 100) + "." + str((self.cmax[1] // 100000) % 100 + 1) + "." + str(self.cmax[1] % 1000)
 		print(l1, "to", l2)
-	def ob(self, x):
+	def ob(self, x):d
 		#self.k.add(x.ex)
 		if(x.ex in self.k):
 			self.append(x)
